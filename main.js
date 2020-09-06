@@ -23,7 +23,7 @@ function init() {
   const ambient = new THREE.AmbientLight(0x404040, 3);
   scene.add(ambient);
 
-  const light = new THREE.DirectionalLight(0xffffff, 1.5);
+  const light = new THREE.DirectionalLight(0xffffff, 2);
   light.position.set(10, 10, 10);
   scene.add(light);
 
@@ -45,7 +45,7 @@ function init() {
 // Animate
 function animate() {
   requestAnimationFrame(animate);
-  house.rotation.z += 0.005;
+  house.rotation.z += 0.007;
   renderer.render(scene, camera);
 }
 
