@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   overflow: hidden;
-  background: url(./1155041.jpg);
+  background: url(./1155041.jpg) no-repeat;
 }
 
 .scene,

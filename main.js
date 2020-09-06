@@ -45,7 +45,7 @@ function init() {
 // Animate
 function animate() {
   requestAnimationFrame(animate);
-  house.rotation.z += 0.007;
+  house.rotation.z += 0.01;
   renderer.render(scene, camera);
 }
 
